@@ -1,18 +1,7 @@
 
-
-/*------------------------------MEDIA IPHONES BY AZAT H------------------------------------------------ */
-
-
 @media (min-width:280px) and (max-width:932px)	{
 
 
-    */
-  
-    
-    
-    /*--------------------------------------------------------------
-    # Header
-    --------------------------------------------------------------*/
     
     #header {
      
@@ -83,7 +72,6 @@
     bottom: 15px;
   }
   
-  /*TOGGLE */
   
   
   #mobile-nav-toggle {
@@ -222,16 +210,13 @@
   
   @media print {
     body {
-      font-size: 12pt; /* Adjust font size for print */
-      color: #000; /* Set color for text in print */
+      font-size: 12pt; 
+      color: #000; 
     }
   
-    /* Additional print styles go here */
-    /* For example, you might want to hide certain elements or adjust layout */
     .print-hidden {
       display: none;
       
     }
   }
   
-    /* BY AZAT H */
