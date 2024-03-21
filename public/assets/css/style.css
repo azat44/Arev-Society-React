@@ -118,10 +118,6 @@ h6 {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  background-image: url('./images/avs_background.webp');
-  background-repeat: no-repeat;
-  background-size: cover; 
-
 }
 
 #intro .intro-content h1 {
