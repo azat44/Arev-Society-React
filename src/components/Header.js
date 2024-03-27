@@ -64,16 +64,16 @@ const Header = () => {
                             <FaAngleDown style={{ marginBottom: '-3.5px', marginLeft: '-10px', color: '#0000FF' }} />
                             <ul>
                                 <li>
-                                    <Link to="humanitarian-emergency">Humanitarian Emergency</Link>
+                                    <a href="humanitarian-emergency">Humanitarian Emergency</a>
                                 </li>
                                 <li>
-                                    <Link to="women-empowerment">Women Empowerment</Link>
+                                    <a href="women-empowerment">Women Empowerment</a>
                                 </li>
                                 <li>
-                                    <Link to="refugee-women-empowerment">Refugee Women</Link>
+                                    <a href="refugee-women-empowerment">Refugee Women</a>
                                 </li>
                                 <li>
-                                    <Link to="digital-Inequality">Digital Inequality</Link>
+                                    <a href="digital-Inequality">Digital Inequality</a>
                                 </li>
                             </ul>
                         </li>

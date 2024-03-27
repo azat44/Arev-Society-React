@@ -1,13 +1,13 @@
 @media (min-width: 280px) and (max-width: 932px) {
-  main { 
-    position: relative; overflow-x: hidden;
-   }
-
+  
+  
+  
 
   body{
 
-    overflow-x: hidden  
-  }
+    width: 100%;
+    overflow-x: hidden;
+    }
   #header {
     height: 5.6rem;
   }
@@ -259,10 +259,7 @@
 
 /* Media Query pour les vues mobiles */
 @media (min-width: 280px) and (max-width: 932px) {
-  body{
-
-    overflow-x: hidden  
-  }
+   
   /* Styles pour les sous-menus en vue mobile */
   .nav-menu ul {
       position: static; /* Réinitialiser la position pour le flux normal du document */

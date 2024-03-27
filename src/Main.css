@@ -1,4 +1,8 @@
-
+main{
+  width: 100%;
+  overflow: hidden;
+  }
+ 
 body {
   color: whitesmoke;
     color: #444;
@@ -6,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden  
 
   }
    
