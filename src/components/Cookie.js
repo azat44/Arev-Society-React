@@ -38,11 +38,11 @@ const CookieBanner = () => {
         <div id="cookies-banner">
             <p>
                 We use cookies and other identifiers to help improve your online experience.
-                By using our website you are agreeing to this. Read our privacy policy to
+                By using our website you are agreeing to this. Read our <a href="privacy">privacy policy</a> to
                 find out what cookies are used for and how to change your settings.
             </p>
-            <button id="accept-cookies" onClick={acceptCookies}>Accepter</button>
-            <button id="deny-cookies" onClick={handleDenyCookies}>Refuser</button>
+            <button id="accept-cookies" onClick={acceptCookies}>Accept</button>
+            <button id="deny-cookies" onClick={handleDenyCookies}>Deny</button>
         </div>
     );
 };
