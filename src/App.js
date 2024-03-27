@@ -11,15 +11,13 @@ import Empowerment from './pages/Empowerment';
 import Beneficiaries from './pages/Beneficiaries';
 import DigitalInequality from './pages/Digital-Inequality';
 import Privacy from './pages/Privacy';
-import CookieConsent from './components/Cookie';
-import { useCookies } from 'react-cookie';
 import { Helmet } from 'react-helmet';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import CookieBanner from './components/Cookie';
 import EmpowermentStory1 from './WomenStorys/Empowerment-story1';
 import EmpowermentStory2 from './WomenStorys/Empowerment-story2';
 import EmpowermentStory3 from './WomenStorys/Empowerment-story3';
@@ -28,7 +26,6 @@ import EmpowermentStory5 from './WomenStorys/Empowerment-story5';
 import EmpowermentStory6 from './WomenStorys/Empowerment-story6';
 
 function App() {
-  const [cookies] = useCookies(["cookieConsent"]); // Utilisez useCookies
 
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -72,8 +69,7 @@ function App() {
           <Route exact path="/women-empowerment-story-6" component={EmpowermentStory6} />
           <Route exact path="/privacy" component={Privacy} />
         </Switch>
-        {!cookies.cookieConsent && <CookieConsent />}
-
+        <CookieBanner />
         <Footer />
       </Router>
     </div>
