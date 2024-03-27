@@ -228,6 +228,8 @@
     color: orange; /* Couleur du texte du menu au survol */
   }
 
+
+
   /* Ajouter une superposition sombre sur le contenu */
   .overlay {
     position: fixed;
@@ -250,6 +252,8 @@
   size:3px;
   inline:block
 }
+
+
 
 
 /* Media Query pour les vues mobiles */

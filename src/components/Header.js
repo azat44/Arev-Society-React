@@ -49,7 +49,7 @@ const Header = () => {
                     <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
                         <li className="menu-has-children" onClick={toggleSubMenu}>
                             <a href="index.html">Who we are </a>
-                            <FaAngleDown style={{ marginBottom: '-3.5px', marginLeft: '-10px', color: '#0000FF' }} />
+                            <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
                                     <a href="index.html#about">Our Mission</a>
@@ -61,7 +61,7 @@ const Header = () => {
                         </li>
                         <li className="menu-has-children" onClick={toggleSubMenu}>
                             <a href="#">What we do</a>
-                            <FaAngleDown style={{ marginBottom: '-3.5px', marginLeft: '-10px', color: '#0000FF' }} />
+                            <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
                                     <a href="humanitarian-emergency">Humanitarian Emergency</a>
@@ -81,7 +81,7 @@ const Header = () => {
                             <a href="women-empowerment-stories" title="Arev Society Blog">
                                 Life stories
                             </a>
-                            <FaAngleDown style={{ marginBottom: '-3.5px', marginLeft: '-10px', color: '#0000FF' }} />
+                            <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
                                     <a href="women-empowerment-stories">Our beneficiaries</a>
