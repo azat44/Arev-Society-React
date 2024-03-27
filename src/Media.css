@@ -210,8 +210,10 @@
   }
 
   nav ul.open li {
-    margin-bottom: 1rem; /* Espacement entre les éléments du menu */
+    margin-bottom: 2rem; /* Espacement entre les éléments du menu */
     display: block; /* Afficher les éléments de la liste en bloc */
+    font-size:24px;
+    
 
   }
 
