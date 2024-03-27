@@ -36,8 +36,8 @@ const CookieBanner = () => {
                 By using our website you are agreeing to this. Read our privacy policy to
                 find out what cookies are used for and how to change your settings.
             </p>
-            <button id="accept-cookies" onClick={acceptCookies}>Accepter</button>
-            <button id="deny-cookies" onClick={denyCookies}>Refuser</button>
+            <button id="accept-cookies" onClick={acceptCookies}>Accept</button>
+            <button id="deny-cookies" onClick={denyCookies}>Deny</button>
         </div>
     );
 };

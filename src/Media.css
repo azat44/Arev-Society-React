@@ -197,12 +197,11 @@
     top: 0;
     right: -100%; /* Initial position en dehors de l'écran */
     bottom: 0;
-    width: 70%; /* Ajustez la largeur du menu selon vos besoins */
+    width: 60%; /* Ajustez la largeur du menu selon vos besoins */
     background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond gris semi-transparent */
     z-index: 1000; /* Assurez-vous que le menu est au-dessus de tout le contenu */
-    padding: 1rem; /* Espacement interne du menu */
     overflow-y: auto; /* Activation de la défilement vertical si le contenu dépasse */
-    transition: right 0.3s ease; /* Animation d'ouverture/fermeture */
+    transition: right 4.3s ease; /* Animation d'ouverture/fermeture */
   }
 
   nav ul.open {
@@ -212,12 +211,15 @@
 
   nav ul.open li {
     margin-bottom: 1rem; /* Espacement entre les éléments du menu */
+    display: block; /* Afficher les éléments de la liste en bloc */
+
   }
 
   nav ul.open a {
     color: white; /* Couleur du texte du menu */
     text-decoration: none; /* Suppression du soulignement du texte */
     font-size:16px
+    
   }
 
   nav ul.open a:hover {
@@ -243,39 +245,22 @@
 }
 .nav-menu ul {
   display: none; /* Masquer les sous-menus par défaut */
-  size:3px
+  size:3px;
+  inline:block
 }
 
-.nav-menu ul.open {
-  display: block; /* Afficher les sous-menus lorsque la classe 'open' est ajoutée */
-  position: absolute; /* Positionnement absolu pour les placer correctement */
-  top: 100%; /* Positionner sous l'élément principal du menu */
-  left: 0; /* Aligner à gauche par défaut */
-  background-color: #fff; /* Couleur de fond */
-  padding: 1px; /* Espacement intérieur */
-  border: 1px solid #ccc; /* Bordure */
-}
 
 /* Media Query pour les vues mobiles */
 @media (min-width: 280px) and (max-width: 932px) {
-   
-  /* Styles pour les sous-menus en vue mobile */
-  .nav-menu ul {
-      position: static; /* Réinitialiser la position pour le flux normal du document */
-      display: none; /* Masquer les sous-menus par défaut */
-      background-color: transparent; /* Fond transparent */
-      padding: 0; /* Aucun espacement intérieur */
-      border: none; /* Aucune bordure */
-      width: auto; /* Largeur automatique */
-  }
+  
 
   .nav-menu ul.open {
-      display: block; /* Afficher les sous-menus lorsque la classe 'open' est ajoutée */
-      position: static; /* Réinitialiser la position pour le flux normal du document */
-      background-color: transparent; /* Fond transparent */
-      padding: 0; /* Aucun espacement intérieur */
-      border: none; /* Aucune bordure */
-      width: auto; /* Largeur automatique */
+    display: block; /* Afficher les sous-menus en bloc */
+    position: static; /* Réinitialiser la position pour le flux normal du document */
+    background-color: transparent; /* Fond transparent */
+    padding: 0; /* Aucun espacement intérieur */
+    border: none; /* Aucune bordure */
+    width: auto; /* Largeur automatique */
+    transition: none; /* Supprimer la transition */
   }
 }
-
