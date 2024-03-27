@@ -1,29 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useCookies } from 'react-cookie';
 
-function App() {
-    const [cookies, setCookie, removeCookie] = useCookies(['cookieName']);
-
-    // Définir un cookie
-    const handleSetCookie = () => {
-        setCookie('cookieName', 'cookieValue', { path: '/' });
-    };
-
-    // Obtenir un cookie
-    const cookieValue = cookies.cookieName;
-
-    // Supprimer un cookie
-    const handleRemoveCookie = () => {
-        removeCookie('cookieName');
+const CookieConsent = () => {
+    const [cookies, setCookie] = useCookies(["cookieConsent"]);
+    const giveCookieConsent = () => {
+        setCookie("cookieConsent", true, { path: "/" });
     };
 
     return (
-        <div>
-            <button onClick={handleSetCookie}>Définir un cookie</button>
-            <p>Valeur du cookie : {cookieValue}</p>
-            <button onClick={handleRemoveCookie}>Supprimer le cookie</button>
+        <div className="cookie-consent">
+            <p>
+                We use cookies to enhance your user experience. By using our website,
+                you agree to our use of cookies.{" "}
+                <a href={"/privacy-policy"}>Learn more.</a>
+            </p>
+            <button onClick={giveCookieConsent}>
+                Accept
+            </button>
         </div>
     );
-}
+};
 
-export default App;
+export default CookieConsent;
