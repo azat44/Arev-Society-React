@@ -72,8 +72,9 @@ function App() {
           <Route exact path="/women-empowerment-story-6" component={EmpowermentStory6} />
           <Route exact path="/privacy" component={Privacy} />
         </Switch>
+        {!cookies.cookieConsent && <CookieConsent />}
+
         <Footer />
-        <CookieConsent />
       </Router>
     </div>
   );
