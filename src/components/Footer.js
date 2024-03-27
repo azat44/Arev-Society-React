@@ -85,7 +85,7 @@ class Header extends React.Component {
                             <a href="refugee-women-empowerment">Refugee Women</a>
                         </div>
                         <div className="footer-wp">
-                            <a href="digital-literacy">Digital Literacy</a>
+                            <a href="digital-inequality">Digital Inequality</a>
                         </div>
                     </div>
                     <div className="footer-stories">

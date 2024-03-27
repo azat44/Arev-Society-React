@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import { FaCheckCircle } from 'react-icons/fa'; // Import de l'icône de validation
+
 class Home extends React.Component {
 
 
@@ -44,20 +46,28 @@ About Section
                                     </h3>
                                     <ul>
                                         <li>
-                                            <i className="ion-android-checkmark-circle" /> promotion of
+                                            <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
+                                            promotion of
+                                            promotion of
                                             social and public welfare,
                                         </li>
                                         <li>
-                                            <i className="ion-android-checkmark-circle" /> fighting social,
+                                            <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
+                                            promotion of
+                                            fighting social,
                                             economic, and digital inequalities,
                                         </li>
                                         <li>
-                                            <i className="ion-android-checkmark-circle" /> empowerment of
+                                            <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
+                                            promotion of
+                                            empowerment of
                                             vulnerable women, children, elderly, and other vulnerable layers
                                             of society,
                                         </li>
                                         <li>
-                                            <i className="ion-android-checkmark-circle" /> alleviation of
+                                            <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
+                                            promotion of
+                                            alleviation of
                                             poverty by reinforcing capacities and creating income-generating
                                             activities.
                                         </li>

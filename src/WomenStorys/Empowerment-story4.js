@@ -77,7 +77,7 @@ class EmpowermentStory4 extends React.Component {
                             <br />
                             <p />
                             <p className="back-link">
-                                <a href="women-empowerment-stories.html">Back to stories</a>{" "}
+                                <a href="women-empowerment-stories">Back to stories</a>{" "}
                             </p>
                         </div>
                     </div>

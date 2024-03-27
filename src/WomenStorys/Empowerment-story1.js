@@ -82,7 +82,7 @@ class EmpowermentStory1 extends React.Component {
                                 way. It gave me hope to live further and succeed.
                                 <p />
                                 <p className="back-link">
-                                    <a href="women-empowerment-stories.html">Back to stories</a>{" "}
+                                    <a href="women-empowerment-stories">Back to stories</a>{" "}
                                 </p>
                             </div>
                         </div>

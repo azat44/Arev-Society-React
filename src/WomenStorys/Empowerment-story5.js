@@ -67,7 +67,7 @@ class EmpowermentStory5 extends React.Component {
                             NOTE: Real names are changed. <br />
                             <br />
                             <p className="back-link">
-                                <a href="women-empowerment-stories.html">Back to stories</a>
+                                <a href="women-empowerment-stories">Back to stories</a>
                             </p>
                         </div>
                     </div>

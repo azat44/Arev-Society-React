@@ -76,7 +76,7 @@ class EmpowermentStory3 extends React.Component {
                             that I transformed my pain of loss into a driving force to rebuild a life
                             worth living because I have no choice but to continue! <p />
                             <p className="back-link">
-                                <a href="women-empowerment-stories.html">Back to stories</a>{" "}
+                                <a href="women-empowerment-stories">Back to stories</a>{" "}
                             </p>
                         </div>
                     </div>

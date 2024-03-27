@@ -70,7 +70,7 @@ class EmpowermentStory2 extends React.Component {
                             will push me, if not me?” <br />
                             <br />
                             <p className="back-link">
-                                <a href="women-empowerment-stories.html">Back to stories</a>
+                                <a href="women-empowerment-stories">Back to stories</a>
                             </p>
                         </div>
                     </div>
