@@ -59,7 +59,8 @@ body {
               width: 400px ;
               height: 300px;
               object-fit: cover;    
-              border-radius: 20px; 
+              border-radius: 28px; 
+              padding:10px
            
     }
 
@@ -80,6 +81,7 @@ body {
               height: 270px;
               object-fit: cover;    
               border-radius: 20px; 
+              margin-left:-27px;
                   
     }
     .img-story-1:hover,
@@ -120,7 +122,7 @@ body {
   .article-story-5,
   .article-story-6{
   text-align: justify;
-  padding: 10px;
+  padding: 16px;
   
   }
   

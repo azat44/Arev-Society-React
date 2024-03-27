@@ -33,15 +33,6 @@ const Header = () => {
         };
     }, []);
 
-    useEffect(() => {
-        const menuItems = document.querySelectorAll('.menu');
-        menuItems.forEach(item => {
-            item.addEventListener('click', function () {
-                this.parentNode.classList.toggle('open');
-            });
-        });
-    }, []); // Assurez-vous de spécifier les dépendances vides pour que cette fonction ne soit exécutée qu'une seule fois
-
     return (
         <header id="header">
             <div className="right-section">
