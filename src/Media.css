@@ -1,4 +1,8 @@
 @media (min-width: 280px) and (max-width: 932px) {
+  main { 
+    position: relative; overflow-x: hidden;
+   }
+
 
   body{
 
@@ -194,10 +198,10 @@
     top: 0;
     right: -100%; /* Initial position en dehors de l'écran */
     bottom: 0;
-    width: 40%; /* Ajustez la largeur du menu selon vos besoins */
+    width: 70%; /* Ajustez la largeur du menu selon vos besoins */
     background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond gris semi-transparent */
     z-index: 1000; /* Assurez-vous que le menu est au-dessus de tout le contenu */
-    padding: 2rem; /* Espacement interne du menu */
+    padding: 1rem; /* Espacement interne du menu */
     overflow-y: auto; /* Activation de la défilement vertical si le contenu dépasse */
     transition: right 0.3s ease; /* Animation d'ouverture/fermeture */
   }
@@ -214,6 +218,7 @@
   nav ul.open a {
     color: white; /* Couleur du texte du menu */
     text-decoration: none; /* Suppression du soulignement du texte */
+    font-size:16px
   }
 
   nav ul.open a:hover {
@@ -228,7 +233,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond sombre semi-transparente */
-    z-index: 999; /* Assurez-vous que la superposition est au-dessus de tout le contenu */
+    z-index: 1000; /* Assurez-vous que la superposition est au-dessus de tout le contenu */
     display: none; /* Masquez initialement la superposition */
   }
 
@@ -239,6 +244,7 @@
 }
 .nav-menu ul {
   display: none; /* Masquer les sous-menus par défaut */
+  size:3px
 }
 
 .nav-menu ul.open {
@@ -247,14 +253,16 @@
   top: 100%; /* Positionner sous l'élément principal du menu */
   left: 0; /* Aligner à gauche par défaut */
   background-color: #fff; /* Couleur de fond */
-  padding: 10px; /* Espacement intérieur */
+  padding: 1px; /* Espacement intérieur */
   border: 1px solid #ccc; /* Bordure */
 }
 
 /* Media Query pour les vues mobiles */
 @media (min-width: 280px) and (max-width: 932px) {
-  /* Autres styles pour les vues mobiles... */
+  body{
 
+    overflow-x: hidden  
+  }
   /* Styles pour les sous-menus en vue mobile */
   .nav-menu ul {
       position: static; /* Réinitialiser la position pour le flux normal du document */
@@ -274,3 +282,4 @@
       width: auto; /* Largeur automatique */
   }
 }
+
