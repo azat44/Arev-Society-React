@@ -23,7 +23,7 @@ class EmpowermentStory2 extends React.Component {
                             />
                         </div>
                         <div className="article-story-page">
-                            <h3 className="title-story-page">Who will push me if not me?</h3>
+                            <h1 className="title-story-page">Who will push me if not me?</h1>
                             <p className="date-story-page">October 24, 2023</p>
                             We went on this journey to meet with Lusine after we purchased calves
                             within the framework of the “Women Empowerment “project. <br />

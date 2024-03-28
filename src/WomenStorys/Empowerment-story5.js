@@ -24,7 +24,7 @@ class EmpowermentStory5 extends React.Component {
                             />
                         </div>
                         <div className="article-story-page">
-                            <h3 className="title-story-page">A Mother’s Story of Resilience</h3>
+                            <h1 className="title-story-page">A Mother’s Story of Resilience</h1>
                             <p className="date-story-page">October 24, 2023</p>
                             Life can often take us down unexpected paths, forcing us to confront
                             unimaginable challenges. In the heart of Armenia, a story of strength,

@@ -23,7 +23,7 @@ class EmpowermentStory6 extends React.Component {
                             />
                         </div>
                         <div className="article-story-page">
-                            <h3 className="title-story-page">I need to stay strong</h3>
+                            <h1 className="title-story-page">I need to stay strong</h1>
                             <p className="date-story-page">October 24, 2023</p>
                             When news first arrived that Nvard's husband had gone missing during the
                             war, a deep sadness fell upon their household.The heavy burden of his

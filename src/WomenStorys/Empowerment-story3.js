@@ -23,7 +23,7 @@ class EmpowermentStory3 extends React.Component {
                             />
                         </div>
                         <div className="article-story-page">
-                            <h3 className="title-story-page"> I have no choice , but to continue</h3>
+                            <h1 className="title-story-page"> I have no choice , but to continue</h1>
                             <p className="date-story-page">November 02, 2023</p>
                             After the war, I stayed alone with my son and daughter without any
                             resources except a state allowance. We thought it would be great to launch

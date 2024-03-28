@@ -26,10 +26,10 @@ class EmpowermentStory1 extends React.Component {
                                 />
                             </div>
                             <div className="article-story-page">
-                                <h3 className="title-story-page">
+                                <h1 className="title-story-page">
                                     {" "}
                                     Meline’s challenging journey to find hope
-                                </h3>
+                                </h1>
                                 <p className="date-story-page"> November 08, 2023</p>
                                 When my husband was taken from me during the war, life became abruptly
                                 tough, and I didn't know what to do or where to turn. It was a difficult
