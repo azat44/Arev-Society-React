@@ -88,7 +88,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li clas>
                             <a href="index.html#contact" onClick={() => ('contact')}>
                                 Contact
                             </a>

@@ -81,10 +81,9 @@ h6 {
 
 #intro {
   width: 100%;
-  height: 70vh;
+  height: 71vh;
   position: relative;
   background-size: cover; 
-  background-position:bottom; 
 }
 
 
@@ -117,6 +116,8 @@ h6 {
   background-image: url('./images/avs_background.webp');
   background-repeat: no-repeat;
   background-size: cover; 
+  background-position: center bottom -10%; /* Déplace l'image vers le haut de 10% de la hauteur */
+
 
 }
 

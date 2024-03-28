@@ -197,7 +197,7 @@
     top: 0;
     right: -100%; /* Initial position en dehors de l'écran */
     bottom: 0;
-    width: 60%; /* Ajustez la largeur du menu selon vos besoins */
+    width: 65%; /* Ajustez la largeur du menu selon vos besoins */
     background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond gris semi-transparent */
     z-index: 1000; /* Assurez-vous que le menu est au-dessus de tout le contenu */
     overflow-y: auto; /* Activation de la défilement vertical si le contenu dépasse */
@@ -211,8 +211,9 @@
 
   nav ul.open li {
     margin-bottom: 2rem; /* Espacement entre les éléments du menu */
+    margin-right:3rem;
     display: block; /* Afficher les éléments de la liste en bloc */
-    font-size:24px;
+    font-size:34px;
     
 
   }
