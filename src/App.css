@@ -117,6 +117,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center bottom -10%; /* Déplace l'image vers le haut de 10% de la hauteur */
+  background-position: center bottom; /* Centre l'image horizontalement et la place en bas */
 
 
 }

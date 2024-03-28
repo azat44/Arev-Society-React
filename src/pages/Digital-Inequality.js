@@ -12,58 +12,58 @@ class DigitalInequality extends React.Component {
 
                     <Helmet>
 
-                        <>
-                            <title>Digital Inequality | AREV Society</title>
-                            <meta
-                                name="description"
-                                content="Explore the issue of digital inequality and its impact on education, employment, and access to information. Learn about initiatives to bridge the digital divide."
-                            />
-                            <meta
-                                name="keywords"
-                                content="digital inequality, digital divide, access to technology, internet access, digital literacy, education technology, employment opportunities"
-                            />
-                            <meta name="robots" content="index, follow" />
-                            <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-                            <meta name="language" content="English" />
-                            <meta name="revisit-after" content="7 days" />
-                            <meta name="author" content="AREV Society" />
-                            <meta name="generator" content="React" />
-                            <meta name="distribution" content="global" />
-                            <meta name="rating" content="general" />
-                            <meta
-                                name="abstract"
-                                content="Digital inequality refers to the uneven distribution of access to information and communication technologies, which can lead to disparities in education, employment, and overall societal participation."
-                            />
-                            <link rel="canonical" href="https://www.arevsociety.org/digital-inequality" />
-                            {/* Open Graph data for social media */}
-                            <meta property="og:title" content="Digital Inequality | AREV Society" />
-                            <meta property="og:type" content="website" />
-                            <meta
-                                property="og:url"
-                                content="https://www.arevsociety.org/digital-inequality"
-                            />
-                            <meta
-                                property="og:image"
-                                content="https://www.arevsociety.org/images/digital-inequality.jpg"
-                            />
-                            <meta
-                                property="og:description"
-                                content="Explore the issue of digital inequality and its impact on education, employment, and access to information. Learn about initiatives to bridge the digital divide."
-                            />
-                            <meta property="og:site_name" content="AREV Society" />
-                            {/* Twitter Card data */}
-                            <meta name="twitter:card" content="summary_large_image" />
-                            <meta name="twitter:site" content="@AREVSociety" />
-                            <meta name="twitter:title" content="Digital Inequality | AREV Society" />
-                            <meta
-                                name="twitter:description"
-                                content="Explore the issue of digital inequality and its impact on education, employment, and access to information. Learn about initiatives to bridge the digital divide."
-                            />
-                            <meta
-                                name="twitter:image"
-                                content="https://www.arevsociety.org/images/digital-inequality.jpg"
-                            />
-                        </>
+
+                        <title>Digital Inequality | AREV Society</title>
+                        <meta
+                            name="description"
+                            content="Explore the issue of digital inequality and its impact on education, employment, and access to information. Learn about initiatives to bridge the digital divide."
+                        />
+                        <meta
+                            name="keywords"
+                            content="digital inequality, digital divide, access to technology, internet access, digital literacy, education technology, employment opportunities"
+                        />
+                        <meta name="robots" content="index, follow" />
+                        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+                        <meta name="language" content="English" />
+                        <meta name="revisit-after" content="7 days" />
+                        <meta name="author" content="AREV Society" />
+                        <meta name="generator" content="React" />
+                        <meta name="distribution" content="global" />
+                        <meta name="rating" content="general" />
+                        <meta
+                            name="abstract"
+                            content="Digital inequality refers to the uneven distribution of access to information and communication technologies, which can lead to disparities in education, employment, and overall societal participation."
+                        />
+                        <link rel="canonical" href="https://www.arevsociety.org/digital-inequality" />
+                        {/* Open Graph data for social media */}
+                        <meta property="og:title" content="Digital Inequality | AREV Society" />
+                        <meta property="og:type" content="website" />
+                        <meta
+                            property="og:url"
+                            content="https://www.arevsociety.org/digital-inequality"
+                        />
+                        <meta
+                            property="og:image"
+                            content="https://www.arevsociety.org/images/digital-inequality.jpg"
+                        />
+                        <meta
+                            property="og:description"
+                            content="Explore the issue of digital inequality and its impact on education, employment, and access to information. Learn about initiatives to bridge the digital divide."
+                        />
+                        <meta property="og:site_name" content="AREV Society" />
+                        {/* Twitter Card data */}
+                        <meta name="twitter:card" content="summary_large_image" />
+                        <meta name="twitter:site" content="@AREVSociety" />
+                        <meta name="twitter:title" content="Digital Inequality | AREV Society" />
+                        <meta
+                            name="twitter:description"
+                            content="Explore the issue of digital inequality and its impact on education, employment, and access to information. Learn about initiatives to bridge the digital divide."
+                        />
+                        <meta
+                            name="twitter:image"
+                            content="https://www.arevsociety.org/images/digital-inequality.jpg"
+                        />
+
                     </Helmet>
                     <section
                         id="intro"
@@ -86,12 +86,11 @@ class DigitalInequality extends React.Component {
                                 >
                                     <strong>Digital inequality as a cause of human poverty</strong>
                                 </h1>
-                                by the Arev Society March 18, 2024
                                 <br />
                                 <br />
-                                "According to the classic definition, “Digital literacy is an individual’s ability to find, evaluate,
+                                According to the classic definition, “Digital literacy is an individual’s ability to find, evaluate,
                                 and communicate information using typing or digital media platforms. It combines technical and
-                                cognitive abilities to use information and communication technologies to create, evaluate, and share information”.
+                                cognitive abilities to use information and communication technologies to create, evaluate, and share information.
                                 <br />
 
                                 <br />However, it is crucial to take into account that digital literacy does not solely imply the ability to navigate
