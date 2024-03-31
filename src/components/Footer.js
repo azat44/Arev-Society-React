@@ -18,7 +18,7 @@ class Header extends React.Component {
                             />
                         </a>
                         <p className="footer-text">
-                            The Arev Society Inc. is a registered 501(c)(3)
+                            The Arev Society Inc. is a 501(c)(3)
                             <br />
                             <br />
                             tax-exempt charity|EIN: 32-05 12 318
@@ -52,7 +52,7 @@ class Header extends React.Component {
                             </p>
                         </div>
                         <div className="footer-bottom-text">
-                            Arev Society © 2023 |<a href="privacy">Privacy </a>|
+                            Arev Society © 2024 |<a href="privacy">Privacy </a>|
                         </div>
                     </div>
                     <div className="footer--who-we-are">
