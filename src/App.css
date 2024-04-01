@@ -645,7 +645,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .back-to-top {
   position: fixed;
-  display: none;
   background: orange;
   color: #fff;
   padding: 6px 12px 9px 12px;
@@ -654,7 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 15px;
   bottom: 15px;
   transition:0.5s;
- z-index: 2;
+  z-index: 2;
 }
 
 .back-to-top:focus {

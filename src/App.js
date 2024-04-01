@@ -24,6 +24,7 @@ import EmpowermentStory3 from './WomenStorys/Empowerment-story3';
 import EmpowermentStory4 from './WomenStorys/Empowerment-story4';
 import EmpowermentStory5 from './WomenStorys/Empowerment-story5';
 import EmpowermentStory6 from './WomenStorys/Empowerment-story6';
+import ScrollToTopButton from './components/BackToTop';
 
 function App() {
 
@@ -70,6 +71,8 @@ function App() {
           <Route exact path="/privacy" component={Privacy} />
         </Switch>
         <CookieBanner />
+        <ScrollToTopButton />
+
         <Footer />
       </Router>
     </div>
