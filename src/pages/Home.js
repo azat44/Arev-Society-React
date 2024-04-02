@@ -47,26 +47,26 @@ About Section
                                     <ul>
                                         <li>
                                             <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
-                                            promotion of
+
                                             promotion of
                                             social and public welfare,
                                         </li>
                                         <li>
                                             <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
-                                            promotion of
+
                                             fighting social,
                                             economic, and digital inequalities,
                                         </li>
                                         <li>
                                             <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
-                                            promotion of
+
                                             empowerment of
                                             vulnerable women, children, elderly, and other vulnerable layers
                                             of society,
                                         </li>
                                         <li>
                                             <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
-                                            promotion of
+
                                             alleviation of
                                             poverty by reinforcing capacities and creating income-generating
                                             activities.
