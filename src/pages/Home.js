@@ -133,6 +133,7 @@ Services Section
                                         href="https://www.af4sd.org/en/vulnerable-people-armenia-armenian-fund-for-sustainable-development/"
                                         target="_blank "
                                         title="Opens the AF4SD page"
+                                        style={{ marginRight: '5px' }}
                                     >
                                         {" "}
                                         Armenian Fund for Sustainable Development
@@ -224,6 +225,7 @@ Women Empowerment
                                         href="https://af4sd.org"
                                         target="_blank"
                                         title="Opens AF4SD webpage"
+                                        style={{ marginRight: '5px', marginLeft: '5px' }}
                                     >
                                         Armenian Fund for Sustainable Development
                                     </a>

@@ -47,7 +47,7 @@ class Empowerment extends React.Component {
                                     <strong>Refugee Women Empowerment</strong>
                                 </h1>
                                 The Arev Society is proud to announce our new collaboration in 2024 with the
-                                <a href="https://af4sd.org">
+                                <a href="https://af4sd.org" style={{ marginRight: '5px', marginLeft: '5px' }}>
                                     Armenian Fund for Sustainable Development (AF4SD)
                                 </a>
                                 on an impactful new project supporting refugee women from Artsakh.

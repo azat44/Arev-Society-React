@@ -60,7 +60,7 @@ class Humanitarian extends React.Component {
                                 <br />
                                 <br />
                                 The Arev Society hurried to support the
-                                <a href="https://af4sd.org" target="_blank">
+                                <a href="https://af4sd.org" target="_blank" style={{ marginRight: '5px', marginLeft: '5px' }}>
                                     Armenian Fund for Sustainable Development (AF4SD)
                                 </a>
                                 to conduct a thorough needs assessment to understand the specific needs
@@ -102,7 +102,7 @@ class Humanitarian extends React.Component {
                                 stability. <br />
                                 <br />
                                 Our organization partnered with the
-                                <a href="https://af4sd.org" target="_blank">
+                                <a href="https://af4sd.org" target="_blank" style={{ marginLeft: '5px' }}>
                                     AF4SD{" "}
                                 </a>{" "}
                                 to empower the displaced and mitigate this humanitarian crisis. As in
