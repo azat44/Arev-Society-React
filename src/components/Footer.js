@@ -10,7 +10,7 @@ class Header extends React.Component {
             <footer className="footer">
                 <div className="footer-container">
                     <div className="footer-company">
-                        <a href="index.html">
+                        <a href="index">
                             <img
                                 className="footer-logo"
                                 src={require('../images/Arev 03-1-red_light-blue.png')}
@@ -18,10 +18,10 @@ class Header extends React.Component {
                             />
                         </a>
                         <p className="footer-text">
-                            The Arev Society Inc. is a 501(c)(3)
+                            The Arev Society Inc. is a registered 501(c)(3)
                             <br />
                             <br />
-                            tax-exempt charity|EIN: 32-05 12 318
+                            tax-exempt charity | EIN: 32-05 12 318
                         </p>
                         <div className="social">
                             <p>
@@ -57,13 +57,13 @@ class Header extends React.Component {
                     </div>
                     <div className="footer--who-we-are">
                         <h3 className="footer--who-we-are-h3">
-                            <a href="index.html">Who we are</a>
+                            <a href="index">Who we are</a>
                         </h3>
                         <div className="footer-our-mission">
-                            <a href="index.html#about">Our mission</a>
+                            <a href="index#about">Our mission</a>
                         </div>
                         <div className="footer-our-partners">
-                            <a href="index.html#portfolio">Our partners</a>
+                            <a href="index#portfolio">Our partners</a>
                         </div>
                     </div>
                     <div className="footer-projects">
@@ -105,7 +105,7 @@ class Header extends React.Component {
                     <div id="contact" className="footer-contact">
                         <h3 className="footer-contact-h3">Contact</h3>
                         <div className="footer-contact-title">
-                            Arev Society Inc|Annik Klein - CEO
+                            Arev Society Inc | Annik Klein - CEO
                         </div>
                         <div className="footer-contact-address-1">
                             20 W 64th St. Suite 35R New York NY 10023

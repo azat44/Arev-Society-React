@@ -36,7 +36,7 @@ const Header = () => {
     return (
         <header id="header">
             <div className="right-section">
-                <a href="index.html">
+                <a href="index">
                     <img
                         className="resize"
                         src={require('../images/Arev_Society__red-removebg-preview.png')}
@@ -48,14 +48,14 @@ const Header = () => {
                 <nav id="nav-menu-container" className={`${menuOpen ? 'open' : ''}`}>
                     <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
                         <li className="menu-has-children" onClick={toggleSubMenu}>
-                            <a href="index.html">Who we are </a>
+                            <a href="">Who we are </a>
                             <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
-                                    <a href="index.html#about">Our Mission</a>
+                                    <a href="index#about">Our Mission</a>
                                 </li>
                                 <li>
-                                    <a href="index.html#portfolio">Our partners</a>
+                                    <a href="index#portfolio">Our partners</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,7 +89,7 @@ const Header = () => {
                             </ul>
                         </li>
                         <li clas>
-                            <a href="index.html#contact" onClick={() => ('contact')}>
+                            <a href="index#contact" onClick={() => ('contact')}>
                                 Contact
                             </a>
                         </li>

@@ -67,6 +67,7 @@ About Section
                                         <li>
                                             <FaCheckCircle style={{ color: 'orange', fontSize: '18px', marginRight: '5px', marginBottom: '-3px' }} />
 
+
                                             alleviation of
                                             poverty by reinforcing capacities and creating income-generating
                                             activities.

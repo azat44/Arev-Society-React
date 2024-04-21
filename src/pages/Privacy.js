@@ -28,7 +28,7 @@ class Privacy extends React.Component {
                     <div className="container-stories-page">
                         <div className="article-story-page">
                             <h1 className="title-story-page">Privacy Policy</h1>
-                            <p className="date-story-page">Last Updated: October 31, 2023</p>
+                            <p className="date-story-page">Last Updated: March 31, 2024</p>
                             By visiting our website, you are accepting the terms described in our
                             privacy policy. If you do not agree to the terms, please do not use the
                             website. Our privacy policy exists to help explain what information we
