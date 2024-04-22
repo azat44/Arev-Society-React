@@ -52,10 +52,10 @@ const Header = () => {
                             <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
-                                    <a href="#about">Our Mission</a>
+                                    <a href="#our-mission">Our Mission</a>
                                 </li>
                                 <li>
-                                    <a href="#portfolio">Our partners</a>
+                                    <a href="#our-partners">Our partners</a>
                                 </li>
                             </ul>
                         </li>

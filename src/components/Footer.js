@@ -60,10 +60,10 @@ class Header extends React.Component {
                             <a href="/">Who we are</a>
                         </h3>
                         <div className="footer-our-mission">
-                            <a href="#about">Our mission</a>
+                            <a href="#our-mission">Our mission</a>
                         </div>
                         <div className="footer-our-partners">
-                            <a href="#portfolio">Our partners</a>
+                            <a href="#our-partners">Our partners</a>
                         </div>
                     </div>
                     <div className="footer-projects">
