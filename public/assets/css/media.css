@@ -42,7 +42,7 @@
     width:100%
    
   }
-  #about .content h2 {
+  #our-mission .content h2 {
     color: #0c2e8a;
     font-weight: 700;
     font-size: 2rem;
@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
 }
 
-#about .about-img {
+#our-mission .our-mission-img {
   height: auto;
 }
 
-#about .about-img img {
+#our-mission .our-mission-img img {
   margin-left: 0;
   padding-bottom: 30px;
 }

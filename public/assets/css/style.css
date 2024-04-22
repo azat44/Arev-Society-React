@@ -433,27 +433,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* our mission
 --------------------------------*/
 
-#about {
+#our-mission {
   padding: 60px 0 30px 0;
 }
 
-#about .about-img {
+#our-mission .our-mission-img {
   overflow: hidden;
 }
 
-#about .about-img img {
+#our-mission .our-mission-img img {
   margin-left: -15px;
   max-width: 100%;
 }
 
-#about .content h2 {
+#our-mission .content h2 {
   color: #0c2e8a;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
 }
 
-#about .content h3 {
+#our-mission .content h3 {
 
 
   font-size: 18px;
@@ -463,27 +463,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
-#about .content p {
+#our-mission .content p {
   line-height: 26px;
 
 }
 
-#about .content p:last-child {
+#our-mission .content p:last-child {
   margin-bottom: 0;
 }
 
-#about .content i {
+#our-mission .content i {
   font-size: 20px;
   padding-right: 4px;
   color: orange;
 }
 
-#about .content ul {
+#our-mission .content ul {
   list-style: none;
   padding: 0;
 }
 
-#about .content ul li {
+#our-mission .content ul li {
   padding-bottom: 10px;
 }
 
@@ -494,13 +494,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 
-#portfolio .container {
+#our-partners .container {
   max-width:1150px; /* Ajuste la largeur maximale du contenu de la section selon tes préférences */
   margin: 0 auto; /* Centrer le contenu horizontalement */
 }
 
 
-#portfolio img {
+#our-partners img {
   width: 100%;
   height: auto;
   max-width: 150px; /* Ajuste la largeur maximale des images selon tes préférences */
