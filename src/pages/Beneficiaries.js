@@ -13,6 +13,8 @@ class Beneficiaries extends React.Component {
         return (
             <>
                 <Helmet>
+                    <title>Women Empowerment Stories - Arev Society</title>
+
                     <meta charset="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta name="description" content="Read inspiring stories of women empowerment and the positive impact of Arev Society's initiatives. Discover real-life experiences that highlight the strength and resilience of women." />

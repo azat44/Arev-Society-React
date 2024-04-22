@@ -6,6 +6,8 @@ class EmpowermentStory4 extends React.Component {
         return (
             <>
                 <Helmet>
+                    <title>Women Empowerment Story 4 - Arev Society</title>
+
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta name="description" content="Discover the empowering journey of an individual woman featured in Arev Society's Women Empowerment Stories. Learn about her challenges, achievements, and the impact of our programs." />
                     <meta name="keywords" content="women empowerment, success story, individual empowerment, Arev Society initiatives" />
