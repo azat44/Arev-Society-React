@@ -10,8 +10,6 @@ class Humanitarian extends React.Component {
 
 
         return (
-
-
             <>
                 <>
                     <Helmet>
