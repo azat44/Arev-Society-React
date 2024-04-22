@@ -36,7 +36,7 @@ const Header = () => {
     return (
         <header id="header">
             <div className="right-section">
-                <a href="index">
+                <a href="/">
                     <img
                         className="resize"
                         src={require('../images/Arev_Society__red-removebg-preview.png')}

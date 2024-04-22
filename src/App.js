@@ -56,7 +56,7 @@ function App() {
         </Helmet>
         <Header />
         <Switch>
-          <Route exact path="/index" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/refugee-women-empowerment" component={Refugee} />
           <Route exact path="/humanitarian-emergency" component={Humanitarian} />
           <Route exact path="/women-empowerment" component={Empowerment} />

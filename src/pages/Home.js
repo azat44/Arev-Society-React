@@ -73,6 +73,15 @@ About Section
                                             activities.
                                         </li>
                                     </ul>
+                                    <p>
+                                        We strive to reduce vulnerable people's dependence on social assistance and help them avoid social exclusion.
+                                        <br />
+                                        Self-sufficiency is not just a matter of finance; it also means access to quality education, better healthcare, and a decent standard of living.
+                                    </p>
+                                    <p>
+                                        Overall, the Arev Society's initiatives aim to create a more equitable and inclusive society by supporting vulnerable people's social, economic, and digital empowerment.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -92,10 +101,13 @@ Our Portfolio Section
                                         href="https://www.af4sd.org/en/vulnerable-people-armenia-armenian-fund-for-sustainable-development/"
                                         target="_blank "
                                         title="Opens the AF4SD page"
-                                    >
+                                        style={{ marginRight: '5px' }}                                    >
                                         {" "}
                                         Armenian Fund for Sustainable Development (AF4SD)
+
                                     </a>
+
+
                                     have worked with vulnerable women since 2020 in Armenia when a
                                     terrible war shattered families and destinies. Thousands of women
                                     became widows or found themselves with disabled husbands who were
@@ -302,7 +314,7 @@ Women Empowerment
                             </div>
                         </div>
                     </section>
-                </main>
+                </main >
             </>
 
 
