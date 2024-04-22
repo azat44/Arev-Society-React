@@ -26,7 +26,7 @@ class Home extends React.Component {
                     {/*==========================
 About Section
 ============================*/}
-                    <section id="about" className="wow fadeInUp" data-aos="fade-up" data-aos-duration="1000">
+                    <section id="our-mission" className="wow fadeInUp" data-aos="fade-up" data-aos-duration="1000">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6 about-img">
@@ -90,7 +90,7 @@ About Section
                     {/*==========================
 Our Portfolio Section
 ============================*/}
-                    <section id="portfolio" className="wow fadeInUp" data-aos="fade-up" data-aos-duration="600">
+                    <section id="our-partners" className="wow fadeInUp" data-aos="fade-up" data-aos-duration="600">
                         <div className="container">
                             <div className="section-header">
                                 <h2>Women Empowerment</h2>
