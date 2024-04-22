@@ -52,10 +52,10 @@ const Header = () => {
                             <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
-                                    <a href="index#about">Our Mission</a>
+                                    <a href="#about">Our Mission</a>
                                 </li>
                                 <li>
-                                    <a href="index#portfolio">Our partners</a>
+                                    <a href="#portfolio">Our partners</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,7 +89,7 @@ const Header = () => {
                             </ul>
                         </li>
                         <li clas>
-                            <a href="index#contact" onClick={() => ('contact')}>
+                            <a href="#contact" onClick={() => ('contact')}>
                                 Contact
                             </a>
                         </li>

@@ -57,13 +57,13 @@ class Header extends React.Component {
                     </div>
                     <div className="footer--who-we-are">
                         <h3 className="footer--who-we-are-h3">
-                            <a href="index">Who we are</a>
+                            <a href="/">Who we are</a>
                         </h3>
                         <div className="footer-our-mission">
-                            <a href="index#about">Our mission</a>
+                            <a href="#about">Our mission</a>
                         </div>
                         <div className="footer-our-partners">
-                            <a href="index#portfolio">Our partners</a>
+                            <a href="#portfolio">Our partners</a>
                         </div>
                     </div>
                     <div className="footer-projects">
