@@ -32,9 +32,7 @@ function App() {
     Aos.init({ duration: 2000 });
   }, [])
 
-  useEffect(() => {
-    document.title = 'Arev Society|Not-for Profit-Charity-501c3';
-  }, []);
+
 
   return (
     <div>
