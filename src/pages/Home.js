@@ -74,9 +74,7 @@ About Section
                                         </li>
                                     </ul>
                                     <p>
-                                        We strive to reduce vulnerable people's dependence on social assistance and help them avoid social exclusion.
-                                        <br />
-                                        Self-sufficiency is not just a matter of finance; it also means access to quality education, better healthcare, and a decent standard of living.
+                                        We strive to reduce vulnerable people's dependence on social assistance and help them avoid social exclusion. Self-sufficiency is not just a matter of finance; it also means access to quality education, better healthcare, and a decent standard of living.
                                     </p>
                                     <p>
                                         Overall, the Arev Society's initiatives aim to create a more equitable and inclusive society by supporting vulnerable people's social, economic, and digital empowerment.
