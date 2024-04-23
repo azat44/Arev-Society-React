@@ -33,7 +33,7 @@ About Section
                                     <img
                                         className='landing-page-img'
                                         src={require('../images/Arev_Society_Charity_not-for-profit_red.webp')}
-                                        alt="Arev Soiciety landing picture"
+                                        alt="Arev Society landing picture"
                                     />
                                 </div>
                                 <div className="col-lg-6 content">
