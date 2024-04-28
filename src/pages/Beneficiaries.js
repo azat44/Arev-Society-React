@@ -43,7 +43,7 @@ class Beneficiaries extends React.Component {
                                 src={require('../images/Arev Society-Women-Empowerment-M_e.webp')}
                                 alt="Arev Society-Women Empowerment story in Armenia "
                             />
-                            <p className="date-story-1">November 08, 2023</p>
+                            <p className="date-story-1">Women Empowerment</p>
                             <h3 className="title-story-1">
                                 {" "}
                                 <a href="women-empowerment-story-1">
@@ -62,7 +62,7 @@ class Beneficiaries extends React.Component {
                                 src={require('../images/Arev Society-Women-Empowerment-L_u.webp')}
                                 alt="Arev Society-Women Empowerment story L_u "
                             />
-                            <p className="date-story-2">October 24, 2023</p>
+                            <p className="date-story-2">Women Empowerment</p>
                             <h3 className="title-story-2">
                                 <a href="women-empowerment-story-2">
                                     Who will push me, if not me?{" "}
@@ -81,7 +81,7 @@ class Beneficiaries extends React.Component {
                                 src={require('../images/Arev Society-Women-Empowerment-B_a.webp')}
                                 alt="Arev Society-Women Empowerment story-B_a in Armenia "
                             />
-                            <p className="date-story-3">November 02, 2023</p>
+                            <p className="date-story-3">Women Empowerment</p>
                             <h3 className="title-story-3">
                                 <a href="women-empowerment-story-3">
                                     I have no choice , but to continue{" "}
@@ -99,8 +99,8 @@ class Beneficiaries extends React.Component {
                                 src={require('../images/Arev Society-Women-Empowerment-T_a.webp')}
                                 alt="Arev Society-Women Empowerment story in Armenia -T-a "
                             />
-                            <p className="date-story-4">November 02, 2023</p>
-                            <h3 className="title-story-6">
+                            <p className="date-story-4">Women Empowerment</p>
+                            <h3 className="title-story-4">
                                 {" "}
                                 <a href="women-empowerment-story-4">
                                     I know my way, my destination.
@@ -118,7 +118,7 @@ class Beneficiaries extends React.Component {
                                 src={require('../images/Arev Society-Women-Empowerment-Liza.webp')}
                                 alt="Arev Society-Women Empowerment story in Armenia-L-a "
                             />
-                            <p className="date-story-5">October 24, 2023</p>
+                            <p className="date-story-5">Women Empowerment</p>
                             <h3 className="title-story-5">
                                 <a href="women-empowerment-story-5">
                                     A Mother’s Story of Resilience
@@ -136,7 +136,7 @@ class Beneficiaries extends React.Component {
                                 src={require('../images/Arev Society-Women-Empowerment-N_d.webp')}
                                 alt="Arev Society-Women Empowerment story in Armenia-N_d "
                             />
-                            <p className="date-story-6">October 24, 2023</p>
+                            <p className="date-story-6">Women Empowerment</p>
                             <h3 className="title-story-6">
                                 <a href="women-empowerment-story-6">I need to stay strong</a>
                             </h3>

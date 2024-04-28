@@ -32,7 +32,7 @@ class EmpowermentStory1 extends React.Component {
                                     {" "}
                                     Meline’s challenging journey to find hope
                                 </h1>
-                                <p className="date-story-page"> November 08, 2023</p>
+                                <p className="date-story-page">Women Empowerment</p>
                                 When my husband was taken from me during the war, life became abruptly
                                 tough, and I didn't know what to do or where to turn. It was a difficult
                                 time, and I struggled with how to heal my pain. But I refused to give up

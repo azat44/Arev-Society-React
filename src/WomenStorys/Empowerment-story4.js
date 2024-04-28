@@ -27,7 +27,7 @@ class EmpowermentStory4 extends React.Component {
                         </div>
                         <div className="article-story-page">
                             <h1 className="title-story-page"> I know my way, my destination </h1>
-                            <p className="date-story-page">November 02, 2023</p>
+                            <p className="date-story-page">Women Empowerment</p>
                             Before you arrive in Gandzaqar in the Tavush region, it takes you a
                             two-hour journey. But, when you arrive, you find yourself in a picturesque
                             landscape surrounded by mountains, and all is green. <br />
