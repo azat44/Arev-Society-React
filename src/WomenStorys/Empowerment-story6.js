@@ -56,7 +56,7 @@ class EmpowermentStory6 extends React.Component {
                             comes home." <br />
                             <br />
                             The implementing partner, the
-                            <a href="https://af4sd.org" target="_blank">
+                            <a style={{ marginLeft: '5px' }} href="https://af4sd.org" target="_blank">
                                 Armenian Fund for Sustainable Development{" "}
                             </a>
                             , is helping them organize the greenhouse construction that will allow
