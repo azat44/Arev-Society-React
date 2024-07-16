@@ -24,6 +24,12 @@ import EmpowermentStory3 from './WomenStorys/Empowerment-story3';
 import EmpowermentStory4 from './WomenStorys/Empowerment-story4';
 import EmpowermentStory5 from './WomenStorys/Empowerment-story5';
 import EmpowermentStory6 from './WomenStorys/Empowerment-story6';
+import EmpowermentStory7 from './WomenStorys/Empowerment-story7';
+import EmpowermentStory8 from './WomenStorys/Empowerment-story8';
+import EmpowermentStory9 from './WomenStorys/Empowerment-story9';
+import EmpowermentStory10 from './WomenStorys/Empowerment-story10';
+import EmpowermentStory11 from './WomenStorys/Empowerment-story11';
+import EmpowermentStory12 from './WomenStorys/Empowerment-story12';
 import ScrollToTopButton from './components/BackToTop';
 
 function App() {
@@ -66,6 +72,12 @@ function App() {
           <Route exact path="/women-empowerment-story-4" component={EmpowermentStory4} />
           <Route exact path="/women-empowerment-story-5" component={EmpowermentStory5} />
           <Route exact path="/women-empowerment-story-6" component={EmpowermentStory6} />
+          <Route exact path="/women-empowerment-story-7" component={EmpowermentStory7} />
+          <Route exact path="/women-empowerment-story-8" component={EmpowermentStory8} />
+          <Route exact path="/women-empowerment-story-9" component={EmpowermentStory9} />
+          <Route exact path="/women-empowerment-story-10" component={EmpowermentStory10} />
+          <Route exact path="/women-empowerment-story-11" component={EmpowermentStory11} />
+          <Route exact path="/women-empowerment-story-12" component={EmpowermentStory12} />
           <Route exact path="/privacy" component={Privacy} />
         </Switch>
         <CookieBanner />
