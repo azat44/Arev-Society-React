@@ -55,7 +55,13 @@ body {
   .img-story-3,
   .img-story-4,
   .img-story-5,
-  .img-story-6{
+  .img-story-6,
+  .img-story-7,
+  .img-story-8,
+  .img-story-9,
+  .img-story-10,
+  .img-story-11,
+  .img-story-12{
               width: 400px ;
               height: 300px;
               object-fit: cover;    
@@ -89,7 +95,13 @@ body {
     .img-story-3:hover,
     .img-story-4:hover,
     .img-story-5:hover,
-    .img-story-6:hover{
+    .img-story-6:hover,
+    .img-story-7:hover,
+    .img-story-8:hover,
+    .img-story-9:hover,
+    .img-story-10:hover,
+    .img-story-11:hover,
+    .img-story-12:hover{
     transform: scale(1.02);
     transition-duration: 0.7s;
   }
@@ -99,7 +111,13 @@ body {
   .date-story-3,
   .date-story-4,
   .date-story-5,
-  .date-story-6{
+  .date-story-6,
+  .date-story-7,
+  .date-story-8,
+  .date-story-9,
+  .date-story-10,
+  .date-story-11,
+  .date-story-12{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: smaller;
   padding: 10px;
@@ -120,7 +138,13 @@ body {
   .article-story-3,
   .article-story-4,
   .article-story-5,
-  .article-story-6{
+  .article-story-6,
+  .article-story-7,
+  .article-story-8,
+  .article-story-9,
+  .article-story-10,
+  .article-story-11,
+  .article-story-12{
   text-align: justify;
   padding: 16px;
   
@@ -131,10 +155,16 @@ body {
   .title-story-3,
   .title-story-4,
   .title-story-5,
-  .title-story-6{
+  .title-story-6,
+  .title-story-7,
+  .title-story-8,
+  .title-story-9,
+  .title-story-10,
+  .title-story-11,
+  .title-story-12{
     padding: 5px;
- font-size: 16px;
- font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   .title-story-1:hover,
@@ -142,7 +172,13 @@ body {
   .title-story-3:hover,
   .title-story-4:hover,
   .title-story-5:hover,
-  .title-story-6:hover{
+  .title-story-6:hover,
+  .title-story-7:hover,
+  .title-story-8:hover,
+  .title-story-9:hover,
+  .title-story-10:hover,
+  .title-story-11:hover,
+  .title-story-12:hover{
     transform: scale(1.01);
     transition-duration: 0.5s;
     color:darkblue;
