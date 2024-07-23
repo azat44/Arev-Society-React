@@ -22,7 +22,7 @@ class EmpowermentStory9 extends React.Component {
                     <meta property="og:description" content="Discover the inspiring journey of Hasmik, with a disabled husband from Armenia who started her own sewing business with the support of the Arev Society and the Armenian Fund for Sustainable Development." />
                     <meta property="og:type" content="article" />
                     <meta property="og:url" content="https://www.arevsociety.org/women-empowerment-story-09" />
-                    <meta property="og:image" content="https://www.arevsociety.org/path-to-your-image.webp" />
+                    <meta property="og:image" content="https://www.arevsociety.org/Arev-Society-Women-Empowerment-Story-09.webp" />
                     <meta property="og:site_name" content="Arev Society" />
                     <meta property="og:locale" content="en_US" />
 
@@ -30,7 +30,7 @@ class EmpowermentStory9 extends React.Component {
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:title" content="Women Empowerment-09 - Arev Society" />
                     <meta name="twitter:description" content="Discover the inspiring journey of Hasmik, a war widow from Armenia who started her own sewing business with the support of the Armenian Fund for Sustainable Development and the Arev Society." />
-                    <meta name="twitter:image" content="https://www.arevsociety.org/path-to-your-image.webp" />
+                    <meta name="twitter:image" content="https://www.arevsociety.org/Arev-Society-Women-Empowerment-Story-09.webp" />
                     <meta name="twitter:site" content="@ArevSociety" />
                     <meta name="twitter:creator" content="@ArevSociety" />
                     <link rel="canonical" href="https://www.arevsociety.org/women-empowerment-story-9"></link>

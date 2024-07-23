@@ -9,7 +9,7 @@ class EmpowermentStory7 extends React.Component {
 
                     <meta property="og:title" content="Women Empowerment-07 - Arev Society" />
                     <meta property="og:description" content="Anna's journey from tragedy to triumph through the Vulnerable Women Empowerment program by the Armenian Fund for Sustainable Development." />
-                    <meta property="og:image" content="https://www.arevsociety.org/path-to-your-image.webp" />
+                    <meta property="og:image" content="https://www.arevsociety.org/Arev-Society-Women-Empowerment-Story-07.webp" />
                     <meta property="og:url" content="https://www.arevsociety.org/women-empowerment-story-07" />
                     <meta property="og:type" content="article" />
                     <meta property="og:site_name" content="Arev Society" />
@@ -18,7 +18,7 @@ class EmpowermentStory7 extends React.Component {
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:title" content="Women Empowerment - 07 - Arev Society" />
                     <meta name="twitter:description" content="Anna's journey from tragedy to triumph through the Vulnerable Women Empowerment program by the Armenian Fund for Sustainable Development." />
-                    <meta name="twitter:image" content="https://www.arevsociety.org/path-to-your-image.webp" />
+                    <meta name="twitter:image" content="https://www.arevsociety.org/Arev-Society-Women-Empowerment-Story-07.webp" />
                     <meta name="twitter:site" content="@ArevSociety" />
                     <link rel="canonical" href="https://www.arevsociety.org/women-empowerment-story-7"></link>
                 </Helmet>
