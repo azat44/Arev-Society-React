@@ -30,7 +30,7 @@ class Privacy extends React.Component {
                     <div className="container-stories-page">
                         <div className="article-story-page">
                             <h1 className="title-story-page">Privacy Policy</h1>
-                            <p className="date-story-page">Last Updated: March 31, 2024</p>
+                            <p className="date-story-page">Last Updated: July 28, 2024</p>
                             By visiting our website, you are accepting the terms described in our
                             privacy policy. If you do not agree to the terms, please do not use the
                             website. Our privacy policy exists to help explain what information we
@@ -52,7 +52,7 @@ class Privacy extends React.Component {
                             <br />
                             If you have any questions about this privacy policy, please contact us by
                             sending an e-mail at
-                            <a href="mailto:av@arevsociety.org">av@arevsociety.org</a>
+                            <a href="mailto:av@arevsociety.org"> av@arevsociety.org</a>
                             <br />
                             <br />
                             or writing to: The Arev Society Inc |EIN:32-0512318 |Not-for-Profit
@@ -238,6 +238,24 @@ class Privacy extends React.Component {
                             data we have from you; • request rectification, erasure, or restriction of
                             processing of your personal data unless there is any legal objection; •
                             object to processing your date. <br />
+                            <br />
+                            <strong>Disclaimer</strong>
+                            <br />
+                            <br />
+                            The content provided on this website is for general informational purposes only. It is
+                            not intended to be a substitute for professional advice, diagnosis, or treatment.
+                            Always seek the guidance of qualified experts with any questions you may have
+                            regarding a specific issue or concern. The owners, authors, and contributors of this
+                            website make no representations or warranties of any kind, express or implied, about
+                            the completeness, accuracy, reliability, suitability, or availability of the information
+                            contained on this website. Any reliance you place on such information is strictly at
+                            your own risk. The inclusion of any links does not necessarily imply a
+                            recommendation or endorse the views expressed within them. We reserve the right to
+                            make additions, deletions, or modifications to the content on this website at any time
+                            without prior notice.
+
+                            <br />
+                            <br />
                             <br />
                             <strong>WE DON’T SHARE YOUR PERSONAL DATA WITH THIRD PARTIES.</strong>
                         </div>
