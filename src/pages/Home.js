@@ -150,7 +150,7 @@ Services Section
                                         <h4 className="title">
                                             <a href="">Underrepresentation of Women</a>
                                         </h4>
-                                        <p className="description">
+                                        <p className="section-header">
                                         For decades, women have been significantly underrepresented and undervalued
                                         across nearly all areas of economic activity. This pervasive  issue has deep roots in
                                         societal norms, cultural  expectations, and systemic  barriers that have long hindered
@@ -167,9 +167,9 @@ Services Section
                                 <div className="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                                     <div className="box wow fadeInRight">
                                         <h4 className="title">
-                                            <a href="">Complex Challenges of War Victims and Refugee Women</a>
+                                            <a href="">War Victims and Refugee Women</a>
                                         </h4>
-                                        <p className="description">
+                                        <p className="section-header">
                                         The economic fragility of women becomes  even more pronounced and complex when
                                         considering those affected  by war or forced displacement. 
                                          
@@ -189,13 +189,10 @@ Services Section
                                         <h4 className="title">
                                             <a href="">Digital and Financial Illiteracy</a>
                                         </h4>
-                                        <p className="description">
+                                        <p className="section-header">
                                         For women who  have lost their husbands or  whose spouses have become disabled
                                         due to war, the path to economic stability is fraught  with obstacles. Among the most
-                                        significant barriers are the  lack of 
-                                        <strong>
-                                            <a href="https://www.arevsociety.org/digital-Inequality" target="_blank" title="Opens the Arev Society Digital Inequality page"> digital </a>
-                                        </strong> 
+                                        significant barriers are the  lack of digital 
                                         and financial literacy. In an  increasingly digitized world,  these skills are
                                         not just advantageous but  essential for economic  participation and empowerment.
                                         Digital literacy enables access to  information, online job markets, and remote work
@@ -208,7 +205,7 @@ Services Section
                                 <div className="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                                     <div className="box wow fadeInRight" data-wow-delay="0.2s">
                                         <h4 className="title">
-                                            <a href="">Lack of financial resources and skills</a>
+                                            <a href="">Lack of finances and skills</a>
                                         </h4>
                                         <p className="description">
                                         Limited financial resources and  skills hinder  women's economic progress. State and
@@ -249,7 +246,7 @@ Women Empowerment
                                 <div className="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                                     <div className="box wow fadeInLeft">
                                         <h4 className="title">
-                                            <a href="">In-Kind Contributions for Vulnerable Women   </a>
+                                            <a href="">In-Kind Contribution Support  </a>
                                         </h4>
                                         <p className="description">
                                         We have always avoided cash inputs to support our beneficiaries, eliminating, thus,
@@ -282,7 +279,7 @@ Women Empowerment
                                 <div className="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                                     <div className="box wow fadeInLeft" data-wow-delay="0.2s">
                                         <h4 className="title">
-                                            <a href="">Continuous Business Management Coaching</a>
+                                            <a href="">Continuous Mentoring</a>
                                         </h4>
                                         <p className="description">
                                         To ensure long-term success, we provide continuous business management coaching.
