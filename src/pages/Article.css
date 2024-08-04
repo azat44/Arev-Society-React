@@ -1,0 +1,130 @@
+.article-container {
+  background: #ffffff;
+  padding: 50px;
+  margin: 20px auto;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  max-width: 1000px;
+}
+
+.article-header {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.article-header-center {
+  text-align: center;
+}
+
+.article-date {
+  color: #757575;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.article-description {
+  font-size: 16px;
+  margin: 10px 0;
+  font-style: italic;
+
+}
+
+.article-author {
+  color: #555555;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.article-tags {
+  color: #777777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.article-content {
+  text-align: left;
+  color: #333333;
+}
+
+.article-image {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.article-image-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: -5px;
+  font-style: italic;
+  
+}
+
+.article-content a {
+  color: #007acc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.article-content a:hover {
+  color: #ff5722;
+  text-decoration: underline;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+  margin-top:20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.article-footer  {
+  font-size: 10px; 
+  color: #555;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .article-header-center {
+    text-align: center;
+  }
+
+  .article-title {
+    font-size: 28px;
+  }
+
+  .article-description {
+    text-align: center;
+  }
+
+  .article-image {
+    width: 100%;
+  }
+}

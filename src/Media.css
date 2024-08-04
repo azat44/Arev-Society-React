@@ -243,13 +243,13 @@
     display: none; /* Masquez initialement la superposition */
   }
 
-  /* Afficher la superposition lorsque le menu mobile est ouvert */
+  
   .nav-menu.open ~ .overlay {
     display: block;
   }
 }
 .nav-menu ul {
-  display: none; /* Masquer les sous-menus par défaut */
+  display: none; 
   size:3px;
   inline:block
 }
@@ -257,17 +257,16 @@
 
 
 
-/* Media Query pour les vues mobiles */
 @media (min-width: 280px) and (max-width: 932px) {
   
 
   .nav-menu ul.open {
-    display: block; /* Afficher les sous-menus en bloc */
-    position: static; /* Réinitialiser la position pour le flux normal du document */
-    background-color: transparent; /* Fond transparent */
-    padding: 0; /* Aucun espacement intérieur */
-    border: none; /* Aucune bordure */
-    width: auto; /* Largeur automatique */
-    transition: none; /* Supprimer la transition */
+    display: block; 
+    position: static; 
+    background-color: transparent; 
+    padding: 0; 
+    border: none; 
+    width: auto; 
+    transition: none; 
   }
 }

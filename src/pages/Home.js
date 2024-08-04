@@ -157,9 +157,9 @@ Services Section
                                         women's full participation in the workforce and  economic decision-making processes.
                                         Despite  progress in recent years, the 
                                         <strong>
-                                            <a href="https://www.unwomen.org/en/what-we-do/economic-empowerment" target="_blank" title="Opens the UN Women economic empowerment page"> gender gap in economic participation and opportunity </a>
+                                            <a href="https://www.unwomen.org/en/what-we-do/economic-empowerment" target="_blank" title="Opens the UN Women economic empowerment page"> gender gap in economic participation </a>
                                         </strong> 
-                                        remains a global challenge, with  women often facing limited access to
+                                         and opportunity remains a global challenge, with  women often facing limited access to
                                         employment and leadership positions.
                                     </p>
                                     </div>
