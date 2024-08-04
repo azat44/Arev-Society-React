@@ -6,14 +6,14 @@ import { Helmet } from "react-helmet";
 
 class Beneficiaries extends React.Component {
     componentDidMount() {
-        document.title = 'Women Empowerment Stories - Arev Society';
+        document.title = 'Insights - Arev Society';
     }
 
     render() {
         return (
             <>
                 <Helmet>
-                    <title>Women Empowerment Stories - Arev Society</title>
+                    <title>Insights - Arev Society</title>
 
                     <meta charset="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,14 +22,14 @@ class Beneficiaries extends React.Component {
                     <meta name="author" content="Arev Society" />
                     <meta name="format-detection" content="telephone=no" />
 
-                    <link rel="canonical" href="https://www.arevsociety.org/women-empowerment-stories"></link>
+                    <link rel="canonical" href="https://www.arevsociety.org/insights"></link>
                 </Helmet>
                 <section
                     id="intro"
                     style={{ backgroundImage: "url(images/avs_background.webp)" }}    >
                     <div className="intro-content">
                         <h1>
-                            <span>Life</span> stories
+                            <span>Insi</span>ghts
                         </h1>
                         <div />
                     </div>

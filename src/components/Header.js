@@ -75,19 +75,19 @@ const Header = () => {
                                 <li>
                                     <a href="digital-Inequality">Digital Inequality</a>
                                 </li>
-                                <li>
-                                    <a href="articles">Articles</a>
-                                </li>
                             </ul>
                         </li>
                         <li className="menu-has-children" onClick={toggleSubMenu}>
-                            <a href="women-empowerment-stories" title="Arev Society Blog">
-                                Life stories
+                            <a href="" title="Arev Society Blog">
+                                Insights
                             </a>
                             <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />
                             <ul>
                                 <li>
-                                    <a href="women-empowerment-stories">Our beneficiaries</a>
+                                    <a href="women-empowerment-stories">Life stories</a>
+                                </li>
+                                <li>
+                                    <a href="digital-literacy-initiative-for-vulnerable-women-in-armenia">Articles</a>
                                 </li>
                             </ul>
                         </li>

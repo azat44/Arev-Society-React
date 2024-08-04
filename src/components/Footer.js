@@ -90,14 +90,20 @@ class Header extends React.Component {
                     </div>
                     <div className="footer-stories">
                         <h3 className="footer-stories-h3">
-                            <a href="women-empowerment-stories" title="Arev Society Blog">
-                                Life stories
+                            <a href="insights" title="Arev Society Blog">
+                                Insights
                             </a>
                         </h3>
                         <div className="footer-wp-stories">
                             <a href="women-empowerment-stories" title="Arev Society Blog">
                                 {" "}
-                                Our beneficiaries
+                                Life stories
+                            </a>
+                        </div>
+                        <div className="footer-wp-stories">
+                            <a href="women-empowerment-stories" title="Arev Society Blog">
+                                {" "}
+                                Articles
                             </a>
                         </div>
 

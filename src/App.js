@@ -11,7 +11,6 @@ import Empowerment from './pages/Empowerment';
 import Beneficiaries from './pages/Beneficiaries';
 import DigitalInequality from './pages/Digital-Inequality';
 import DigitalLiteracyArticle from './pages/Digital-Literacy-Article';
-import Articles from './pages/Articles'
 import Privacy from './pages/Privacy';
 import { Helmet } from 'react-helmet';
 import Header from './components/Header';
@@ -68,8 +67,7 @@ function App() {
           <Route exact path="/women-empowerment" component={Empowerment} />
           <Route exact path="/women-empowerment-stories" component={Beneficiaries} />
           <Route exact path="/digital-inequality" component={DigitalInequality} />
-          <Route exact path="/digital-literacy-article" component={DigitalLiteracyArticle} />
-          <Route exact path="/articles" component={Articles} />
+          <Route exact path="/digital-literacy-initiative-for-vulnerable-women-in-armenia" component={DigitalLiteracyArticle} />
           <Route exact path="/women-empowerment-story-1" component={EmpowermentStory1} />
           <Route exact path="/women-empowerment-story-2" component={EmpowermentStory2} />
           <Route exact path="/women-empowerment-story-3" component={EmpowermentStory3} />
