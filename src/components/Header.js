@@ -76,9 +76,6 @@ const Header = () => {
                                     <a href="digital-Inequality">Digital Inequality</a>
                                 </li>
                                 <li>
-                                    <a href="digital-literacy-article">Digital</a>
-                                </li>
-                                <li>
                                     <a href="articles">Articles</a>
                                 </li>
                             </ul>
