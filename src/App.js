@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import './Main.css';
 import './Media.css';
@@ -11,13 +12,13 @@ import Empowerment from './pages/Empowerment';
 import Beneficiaries from './pages/Beneficiaries';
 import DigitalInequality from './pages/Digital-Inequality';
 import DigitalLiteracyArticle from './pages/Digital-Literacy-Article';
+import Articles from './pages/Articles';
+import Insights from './pages/Insights';
 import Privacy from './pages/Privacy';
-import { Helmet } from 'react-helmet';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CookieBanner from './components/Cookie';
 import EmpowermentStory1 from './WomenStorys/Empowerment-story1';
 import EmpowermentStory2 from './WomenStorys/Empowerment-story2';
@@ -34,12 +35,9 @@ import EmpowermentStory12 from './WomenStorys/Empowerment-story12';
 import ScrollToTopButton from './components/BackToTop';
 
 function App() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
-  }, [])
-
-
+  }, []);
 
   return (
     <div>
@@ -68,6 +66,8 @@ function App() {
           <Route exact path="/women-empowerment-stories" component={Beneficiaries} />
           <Route exact path="/digital-inequality" component={DigitalInequality} />
           <Route exact path="/digital-literacy-initiative-for-vulnerable-women-in-armenia" component={DigitalLiteracyArticle} />
+          <Route exact path="/articles" component={Articles} />
+          <Route exact path="/insights" component={Insights} /> 
           <Route exact path="/women-empowerment-story-1" component={EmpowermentStory1} />
           <Route exact path="/women-empowerment-story-2" component={EmpowermentStory2} />
           <Route exact path="/women-empowerment-story-3" component={EmpowermentStory3} />

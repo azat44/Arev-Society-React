@@ -78,7 +78,7 @@ const Header = () => {
                             </ul>
                         </li>
                         <li className="menu-has-children" onClick={toggleSubMenu}>
-                            <a href="" title="Arev Society Blog">
+                            <a href="insights" title="Arev Society Blog">
                                 Insights
                             </a>
                             <FaAngleDown style={{ marginBottom: '-6px', marginLeft: '-1px', color: '#0000FF' }} />

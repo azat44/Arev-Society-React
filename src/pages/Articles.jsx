@@ -11,14 +11,14 @@ const articles = [
 
 class Articles extends React.Component {
     componentDidMount() {
-        document.title = 'Women Empowerment Stories - Arev Society';
+        document.title = 'Articles - Arev Society';
     }
 
     render() {
         return (
             <>
                 <Helmet>
-                    <title>Women Empowerment Stories - Arev Society</title>
+                    <title>Atricles - Arev Society</title>
                     <meta charset="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <meta name="description" content="Read inspiring stories of women empowerment and the positive impact of Arev Society's initiatives. Discover real-life experiences that highlight the strength and resilience of women." />
@@ -29,7 +29,7 @@ class Articles extends React.Component {
                 </Helmet>
                 <section id="intro" style={{ backgroundImage: "url(images/avs_background.webp)" }}>
                     <div className="intro-content">
-                        <h1><span>Arti</span>cles</h1>
+                        <h1><span>Articles</span></h1>
                         <div />
                     </div>
                 </section>
@@ -45,20 +45,6 @@ class Articles extends React.Component {
                             </div>
                             <a href="digital-literacy-article">Read More</a>
                             </div>
-                    </div>
-                    <div className="articles-list">
-                        {articles.slice(1).map(article => (
-                            <div key={article.id} className="article-card">
-                                <img src={require(`../images/${article.image}`)} alt={article.title} className="article-card-image" />
-                                <h2 className="article-card-title">{article.title}</h2>
-                                <p className="article-card-description">{article.description}</p>
-                                <div className="article-card-info">
-                                    <span className="article-card-date">{article.date}</span>
-                                    <span className="article-card-read-time">{article.readTime}</span>
-                                </div>
-                                <a href="digital-literacy-article">Read More</a>
-                            </div>
-                        ))}
                     </div>
                 </div>
             </>

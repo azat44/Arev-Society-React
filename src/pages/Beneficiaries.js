@@ -6,30 +6,39 @@ import { Helmet } from "react-helmet";
 
 class Beneficiaries extends React.Component {
     componentDidMount() {
-        document.title = 'Insights - Arev Society';
+        document.title = 'Life stories - Arev Society';
     }
 
     render() {
         return (
             <>
                 <Helmet>
-                    <title>Insights - Arev Society</title>
+                    {/* General tags */}
+    <title>Arev Society - Women Empowerment Stories</title>
+    <meta name="description" content="Explore inspiring women empowerment stories from Arev Society, highlighting the resilience and strength of vulnerable women, refugees, and war widows in Armenia." />
+    <meta name="keywords" content="Arev Society, Women empowerment stories, Vulnerable women, Refugees, war widows, Armenia" />
+    <link rel="canonical" href="https://www.arevsociety.org/women-empowerment-stories" />
 
-                    <meta charset="utf-8" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                    <meta name="description" content="Read inspiring stories of women empowerment and the positive impact of Arev Society's initiatives. Discover real-life experiences that highlight the strength and resilience of women." />
-                    <meta name="keywords" content="women empowerment stories, success stories, inspiring women, Arev Society initiatives" />
-                    <meta name="author" content="Arev Society" />
-                    <meta name="format-detection" content="telephone=no" />
+    {/* Open Graph tags */}
+    <meta property="og:title" content="Arev Society - Women Empowerment Stories" />
+    <meta property="og:description" content="Explore inspiring women empowerment stories from Arev Society, highlighting the resilience and strength of vulnerable women, refugees, and war widows in Armenia." />
+    <meta property="og:url" content="https://www.arevsociety.org/women-empowerment-stories" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.arevsociety.org/path-to-image.jpg" /> {/* Add the correct image URL */}
 
-                    <link rel="canonical" href="https://www.arevsociety.org/insights"></link>
+    {/* Twitter Card tags */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arev Society - Women Empowerment Stories" />
+    <meta name="twitter:description" content="Explore inspiring women empowerment stories from Arev Society, highlighting the resilience and strength of vulnerable women, refugees, and war widows in Armenia." />
+    <meta name="twitter:image" content="https://www.arevsociety.org/path-to-image.jpg" /> {/* Add the correct image URL */}
+
                 </Helmet>
                 <section
                     id="intro"
                     style={{ backgroundImage: "url(images/avs_background.webp)" }}    >
                     <div className="intro-content">
                         <h1>
-                            <span>Insi</span>ghts
+                            <span>Life</span> stories
                         </h1>
                         <div />
                     </div>
