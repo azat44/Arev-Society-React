@@ -10,6 +10,7 @@ const DigitalLiteracyArticle = () => {
     margin: '1em 0',
     fontStyle: 'italic',
     fontWeight: 'normal',
+    fontSize:'20px'
   };
 
   const quoteAuthorStyle = {
@@ -116,7 +117,7 @@ const DigitalLiteracyArticle = () => {
             return newCounts;
           });
         };
-        intervalId = setInterval(incrementCounts, 800);
+        intervalId = setInterval(incrementCounts, 1000);
       }
     };
 

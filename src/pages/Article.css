@@ -39,6 +39,7 @@
   font-size: 16px;
   margin: 10px 0;
   font-style: italic;
+  text-align: center; 
 }
 
 .article-author {
@@ -55,12 +56,12 @@
 }
 
 .article-content {
-  text-align: left;
+  text-align: justify; 
   color: #333333;
 }
 
 .article-image {
-  width: 80%;
+  width: 100%; 
   height: auto;
   margin: 20px auto;
   display: block;
@@ -95,8 +96,9 @@
 .article-content p {
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 17px;
   color: #444;
+  text-align: justify; 
 }
 
 .article-footer {
@@ -106,6 +108,7 @@
   border-radius: 8px;
   line-height: 1.4;
   margin-top: 20px;
+  text-align: center; 
 }
 
 /* Mobile Responsiveness */
@@ -130,13 +133,10 @@
   }
 
   .article-content {
-    text-align: justify; /* Keeps the text justified for readability */
+    text-align: justify; 
   }
 
   .article-content p {
     font-size: 18px;
   }
-  
 }
-
-
