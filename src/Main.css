@@ -310,7 +310,7 @@ body {
   }
   .footer--who-we-are-h3::after {
     content:"";
-    height: 3px;
+    height: 2px;
     width: 0px;
     background-color: blue;
     position: absolute;
@@ -320,7 +320,7 @@ body {
   
     .footer-projects-h3::after {
       content:"";
-      height: 3px;
+      height: 2px;
       width: 0px;
       background-color: blue;
       position: absolute;
@@ -329,19 +329,21 @@ body {
       transition: 0.3s ease;}
 
       .footer-stories-h3::after {
-        content:"";
-        height: 3px;
-        width: 0px;
+        content: "";
+        height: 2px;
+        width: 0; 
         background-color: blue;
         position: absolute;
         bottom: 0;
-        left:1px;
-        transition: 0.3s ease;}
+        left: 1px;
+        transition: width 0.3s ease; 
+      }
+      
     
   
       .footer-contact-h3::after {
         content:"";
-        height: 3px;
+        height: 2px;
         width: 0px;
         background-color: blue;
         position: absolute;
@@ -350,20 +352,20 @@ body {
         transition: 0.3s ease;}
   
         .footer--who-we-are-h3:hover::after{
-          width:115px;
+          width:100px;
          
         }
         .footer-projects-h3:hover::after{
-          width:115px;
+          width:105px;
          
         }
         .footer-stories-h3:hover::after{
-          width:105px;
+          width:70px;
          
         }  
     .footer-contact-h3:hover::after{
-    width:80px;
-    margin-left:-28px;
+    width:70px;
+    margin-left:-27px;
 
   }
   

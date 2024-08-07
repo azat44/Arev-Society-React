@@ -42,7 +42,7 @@ class Insights extends React.Component {
           <div className="insight-card">
             <Link to="/women-empowerment-stories">
               <div className="insight-image-container">
-                <img src={require('../images/Arev-Society_Refugee-Women_Inisghts-Articles-for-website1.webp')} alt="Arev Society Articles-Collage with Vulnerable Refugee Women" className="insight-image" />
+                <img src={require('../images/Arev_Society_Women_Empowerment_Insights_Life_Stories_for_website.webp')} alt="Arev Society Articles-Collage with Vulnerable Refugee Women" className="insight-image" />
               </div>
             </Link>
             <h2 className="insight-title">Life Stories</h2>
@@ -51,7 +51,7 @@ class Insights extends React.Component {
           <div className="insight-card">
             <Link to="/digital-literacy-initiative-for-vulnerable-women-in-armenia">
               <div className="insight-image-container">
-                <img src={require('../images/Arev_Society_Women_Empowerment_Insights_Life_Stories_for_website.webp')} alt="Arev Society-Refugee Women-Articles-Collage Armenian Landscape" className="insight-image" />
+                <img src={require('../images/Arev-Society_Refugee-Women_Inisghts-Articles-for-website1.webp')} alt="Arev Society-Refugee Women-Articles-Collage Armenian Landscape" className="insight-image" />
               </div>
             </Link>
             <h2 className="insight-title">Articles</h2>

@@ -22,17 +22,20 @@ const DigitalLiteracyArticle = () => {
   const tableContainerStyle = {
     display: 'flex',
     justifyContent: 'space-around',
-    alignItems: 'stretch',  // Assure que tous les enfants ont la même hauteur
+    alignItems: 'stretch',
     backgroundColor: 'black',
     color: 'white',
     padding: '20px',
     margin: '20px 0',
+    flexWrap: 'nowrap',
   };
 
   const tableItemStyle = {
-    flex: 1,  // Assure que tous les éléments prennent le même espace horizontal
+    flex: '1',
     textAlign: 'center',
-    padding: '10px',  // Ajouter du padding pour l'espacement interne
+    padding: '10px',
+    boxSizing: 'border-box',
+    margin: '10px',
   };
 
   const percentageStyle = {
@@ -53,6 +56,31 @@ const DigitalLiteracyArticle = () => {
     fontSize: '0.9em',
     margin: '5px 0',
   };
+
+  const mobileStyles = `
+      @media (max-width: 768px) {
+            #stats-table {
+              flex-direction: column;
+              align-items: center;
+              padding: 10px;
+            }
+            #stats-table > div {
+              margin: 5px 0;
+              min-width: 90%;
+            }
+            .percentage {
+              font-size: 2em;
+            }
+            .title {
+              font-size: 1em;
+            }
+            .description {
+              font-size: 0.7em;
+            }
+          }
+        `;
+
+
 
   const [counts, setCounts] = useState({
     transportation: 0,
@@ -88,7 +116,7 @@ const DigitalLiteracyArticle = () => {
             return newCounts;
           });
         };
-        intervalId = setInterval(incrementCounts, 1000);
+        intervalId = setInterval(incrementCounts, 800);
       }
     };
 
@@ -124,7 +152,7 @@ const DigitalLiteracyArticle = () => {
         <header className="article-header">
           <div className="article-header-center">
             <h1 className="article-title">Digital Literacy Initiative for Vulnerable Women in Armenia</h1>
-            <div className="article-date">July 31, 2024 · 4 min read</div>
+            <div className="article-date">August 5, 2024 · 8 min read</div>
             <p className="article-description">
               <strong>Keywords:</strong> Women empowerment, Digital Literacy, Vulnerable women, Refugees, Armenia
             </p>
@@ -221,28 +249,31 @@ const DigitalLiteracyArticle = () => {
             We at the Arev Society and our partner, the Armenian Fund for Sustainable Development, have observed all these patterns and understand that we need to adapt our offer to vulnerable populations to foster digitally illiterate people's adhesion to a lifelong learning process. In our next training sessions, we will invite our successful trainees to demonstrate how digital literacy led them to economic opportunities and improved their daily lives. This approach could be particularly effective if it is done through peer support. We strive to reduce the digital divide in society and promote digital inclusion.
           </p>
 
-          <div id="stats-table" style={tableContainerStyle}>
+          <div>
+      <style>{mobileStyles}</style>
+      <div id="stats-table" style={tableContainerStyle}>
         <div style={tableItemStyle}>
-          <p style={percentageStyle}>{counts.transportation}%</p>
-          <p style={titleStyle}>Transportation</p>
-          <p style={descriptionStyle}>35% reported difficulty accessing reliable transportation to course venues.</p>
+          <p className="percentage" style={percentageStyle}>{counts.transportation}%</p>
+          <p className="title" style={titleStyle}>Transportation</p>
+          <p className="description" style={descriptionStyle}>35% reported difficulty accessing reliable transportation to course venues.</p>
         </div>
         <div style={tableItemStyle}>
-          <p style={percentageStyle}>{counts.childcare}%</p>
-          <p style={titleStyle}>Childcare</p>
-          <p style={descriptionStyle}>42% cited lack of childcare as a primary obstacle to regular attendance.</p>
+          <p className="percentage" style={percentageStyle}>{counts.childcare}%</p>
+          <p className="title" style={titleStyle}>Childcare</p>
+          <p className="description" style={descriptionStyle}>42% cited lack of childcare as a primary obstacle to regular attendance.</p>
         </div>
         <div style={tableItemStyle}>
-          <p style={percentageStyle}>{counts.employment}%</p>
-          <p style={titleStyle}>Employment Conflicts</p>
-          <p style={descriptionStyle}>28% experienced scheduling conflicts with work or job-seeking activities.</p>
+          <p className="percentage" style={percentageStyle}>{counts.employment}%</p>
+          <p className="title" style={titleStyle}>Employment Conflicts</p>
+          <p className="description" style={descriptionStyle}>28% experienced scheduling conflicts with work or job-seeking activities.</p>
         </div>
         <div style={tableItemStyle}>
-          <p style={percentageStyle}>{counts.financial}%</p>
-          <p style={titleStyle}>Financial Stress</p>
-          <p style={descriptionStyle}>53% indicated that immediate financial needs often took precedence over educational pursuits.</p>
+          <p className="percentage" style={percentageStyle}>{counts.financial}%</p>
+          <p className="title" style={titleStyle}>Financial Stress</p>
+          <p className="description" style={descriptionStyle}>53% indicated that immediate financial needs often took precedence over educational pursuits.</p>
         </div>
       </div>
+    </div>
 
           <h5 className="article-footer">
             Copyright Notice: © 2024 [Arev Society]. All rights reserved.<br/>
